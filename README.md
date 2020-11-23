@@ -24,8 +24,7 @@ On the Recommended tab, select the Sign up and sign in user flow.<br>
 Enter name for policy<br>
 For Identity providers, select Email signup<br>
 For User attributes and claims, choose the claims and attributes that you want to collect and send from the user during sign-up.<br>
-Click create <br>
-<br><br>
+Click create <br><br>
 Add authentication codes to application<br>
 There are lot of ways of doing this. This step is using dependency injection in configure services(startup.cs)<br>
 In Appsettings.json here is the configuration the example of configuration<br>
@@ -52,8 +51,9 @@ This is a workaround because azure ad b2c doesn’t provide group management. So
 Create custom attribute<br>
 In Azure ad b2c, select user attributes<br>
 Click add<br>
-Enter name, choose data type and enter description<br><br>
+Enter name, choose data type and enter description<br>
 Click create<br>
+
 Enable Permission<br>
 Select App registrations, and then select Application we want to authorize.<br>
 Under Manage, select API permissions.<br>
